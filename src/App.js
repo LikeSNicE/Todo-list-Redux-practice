@@ -1,7 +1,8 @@
 import React from 'react';
 import styles from './App.module.scss';
 import TodoAdd from './Components/TodoAdd/TodoAdd';
-import TodoItem from './Components/TodoItem/TodoItem';
+// import TodoItem from './Components/TodoItem/TodoItem';
+import TodoItemContainer from './Components/TodoItem/TodoItemContainer';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
         <TodoAdd />
       </section>
       <section className={styles.articleSection}>
-        <TodoItem />
+        <TodoItemContainer />
       </section>
     </article>
   );
