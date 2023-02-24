@@ -8,6 +8,7 @@ const TodoItem = ({id,title}) => {
         <input type="checkbox" className={styles.inputItemCheckbox} />
         <h3 className={styles.inputItemTitle}>{title}</h3>
       </label>
+     
       <button className={styles.inputItemEdit} />
       <button className={styles.inputItemRemove} />
     </div>

@@ -7,6 +7,7 @@ const initialState = {
   posts: [
     { id: 1, title: "Привет" },
     { id: 2, title: "React" },
+    { id: 3, title: "Stranger things" },
   ],
 };
 
